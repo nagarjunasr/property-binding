@@ -19,12 +19,12 @@ export class AppComponent {
     Type: 'Flower',
     sex: 'f',
     rating: 4,
-    photo: './leela.jpg'
+    photo: 'images/leela.jpg'
   };
   male = {
     Type: 'Desert',
     sex: 'm',
-    photo: './fry.jpg'
+    photo: 'images/fry.jpg'
   };
   person: any = this.female;
 }
