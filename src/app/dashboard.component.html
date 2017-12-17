@@ -1,0 +1,9 @@
+<h3>Choose and modify your favourite</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let hero of heroes" class="col-1-5"
+      routerLink="/detail/{{hero.id}}">
+    <div class="module hero">
+      <h4>{{hero.name}}</h4>
+    </div>
+  </a>
+</div>
